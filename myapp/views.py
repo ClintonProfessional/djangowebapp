@@ -3,14 +3,15 @@ from .forms import ImageForm
 
 # Create your views here.
 from django.http import HttpResponse
+from PIL import Image
 
 from .models import Book
 
 def index(request):
-    from PIL import Image
-    image1 = Image.open(r'C:\Users\Clinton Cunha\Desktop\Desktop\Weekly Activities\Week17\Django\mysite\myapp\mak.jpg')
-    im1 = image1.convert('RGB')
-    im1.save(r'C:\Users\Clinton Cunha\Desktop\Desktop\Weekly Activities\Week17\Django\mysite\myapp\mak.pdf')
+    #from PIL import Image
+    #image1 = Image.open(r'C:\Users\Clinton Cunha\Desktop\Desktop\Weekly Activities\Week17\Django\mysite\myapp\mak.jpg')
+    #im1 = image1.convert('RGB')
+    #im1.save(r'C:\Users\Clinton Cunha\Desktop\Desktop\Weekly Activities\Week17\Django\mysite\myapp\mak.pdf')
     return HttpResponse("Hello, world!")
 
 def book_by_id(request, book_id):
