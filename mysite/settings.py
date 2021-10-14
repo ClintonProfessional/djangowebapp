@@ -118,7 +118,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = '/static/'
+#STATIC_URL = '/static/'
 #<span class="hljs-comment"># Base url to serve media files</span>
 #MEDIA_URL = 'C:/Users/Clinton Cunha/Desktop/Desktop/Weekly Activities/Week17/Django/mysite/myapp/'
 #<span class="hljs-comment"># Path where media is stored</span>
